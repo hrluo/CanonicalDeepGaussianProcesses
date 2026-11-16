@@ -1,0 +1,30 @@
+{
+  "scenario": "holder_correct",
+  "n_train": 45,
+  "lambda_grid": [
+    0.0,
+    0.2,
+    0.4,
+    0.7,
+    1.0,
+    1.5,
+    2.5
+  ],
+  "nominal_eta_at_lambda_1": [
+    42.98752353544979,
+    26.27015327166376,
+    14.329174511816596,
+    0.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "init_modes": [
+    "identity",
+    "smooth_random"
+  ],
+  "fast": false,
+  "interpretation": "lambda is a finite-sample multiplier; the asymptotic theorem does not determine its numerical constant."
+}

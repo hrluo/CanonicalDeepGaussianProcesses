@@ -1,0 +1,122 @@
+{
+  "shallow_ridges": {
+    "description": "Shallow nonlinear ridge/bump surface; layers 1--3 redundant.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.7,
+      "eta": [
+        52.0,
+        30.0,
+        14.0,
+        0.0
+      ],
+      "init_lengthscale": 0.34
+    }
+  },
+  "shallow_checkerboard": {
+    "description": "Shallow checkerboard/ridge final surface; layers 1--3 redundant.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.68,
+      "eta": [
+        55.0,
+        32.0,
+        15.0,
+        0.0
+      ],
+      "init_lengthscale": 0.3
+    }
+  },
+  "localized_bumps_sparse": {
+    "description": "Shallow localized bumps with sparse/noisy observations.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.65,
+      "eta": [
+        60.0,
+        36.0,
+        16.0,
+        0.0
+      ],
+      "init_lengthscale": 0.28
+    }
+  },
+  "boundary_transition": {
+    "description": "Shallow oblique boundary transition; layers 1--3 redundant.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.7,
+      "eta": [
+        55.0,
+        32.0,
+        15.0,
+        0.0
+      ],
+      "init_lengthscale": 0.32
+    }
+  },
+  "anisotropic_ridge_sparse": {
+    "description": "Shallow anisotropic oblique ridge; layers 1--3 redundant.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.67,
+      "eta": [
+        58.0,
+        34.0,
+        16.0,
+        0.0
+      ],
+      "init_lengthscale": 0.3
+    }
+  },
+  "active_radial_warp": {
+    "description": "Layers 1--2 redundant; layer 3 radial warp and final layer active.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.7,
+      "eta": [
+        55.0,
+        32.0,
+        5.0,
+        0.0
+      ],
+      "init_lengthscale": 0.34
+    }
+  },
+  "active_shear_warp": {
+    "description": "Layers 1--2 redundant; layer 3 shear/swirl warp and final layer active.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.7,
+      "eta": [
+        55.0,
+        32.0,
+        5.0,
+        0.0
+      ],
+      "init_lengthscale": 0.34
+    }
+  },
+  "canceling_affine_trap": {
+    "description": "Non-identifiable affine shrink/inverse decomposition; use for discussion.",
+    "config": {
+      "n_train": 100,
+      "noise_sd": 0.1,
+      "rho": 0.7,
+      "eta": [
+        55.0,
+        32.0,
+        15.0,
+        0.0
+      ],
+      "init_lengthscale": 0.34
+    }
+  }
+}

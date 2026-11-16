@@ -1,0 +1,11 @@
+dataset,error
+naval_compressor,ImportError: Install ucimlrepo first: pip install ucimlrepo
+naval_turbine,ImportError: Install ucimlrepo first: pip install ucimlrepo
+ct_slice_location,ImportError: Install ucimlrepo first: pip install ucimlrepo
+sgemm_log_runtime,ImportError: Install ucimlrepo first: pip install ucimlrepo
+air_quality_nox,ImportError: Install ucimlrepo first: pip install ucimlrepo
+air_quality_no2,ImportError: Install ucimlrepo first: pip install ucimlrepo
+air_quality_benzene,ImportError: Install ucimlrepo first: pip install ucimlrepo
+blog_feedback_log_comments,ImportError: Install ucimlrepo first: pip install ucimlrepo
+facebook_comments_log,ImportError: Install ucimlrepo first: pip install ucimlrepo
+communities_crime,ImportError: Install ucimlrepo first: pip install ucimlrepo

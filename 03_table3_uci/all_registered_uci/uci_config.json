@@ -1,0 +1,125 @@
+{
+  "requested_datasets": "all",
+  "datasets": [
+    "auto_mpg",
+    "forest_fires_log_area",
+    "wine_red",
+    "wine_white",
+    "real_estate",
+    "qsar_fish",
+    "student_math",
+    "student_portuguese",
+    "parkinsons_motor",
+    "parkinsons_total",
+    "appliances_energy",
+    "abalone",
+    "bike_day",
+    "naval_compressor",
+    "naval_turbine",
+    "ct_slice_location",
+    "sgemm_log_runtime",
+    "air_quality_nox",
+    "air_quality_no2",
+    "air_quality_benzene",
+    "blog_feedback_log_comments",
+    "facebook_comments_log",
+    "communities_crime",
+    "online_news_logshares",
+    "protein_tertiary",
+    "concrete_strength",
+    "airfoil_self_noise",
+    "gas_turbine_nox",
+    "superconductivity",
+    "power_plant",
+    "yacht_hydrodynamics",
+    "concrete_slump_strength",
+    "qsar_aquatic_toxicity",
+    "residential_building_cost",
+    "computer_hardware",
+    "beijing_pm25",
+    "temperature_bias_tmax",
+    "infrared_temperature",
+    "tetouan_power",
+    "seoul_bike_demand"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "train_frac": 0.8,
+  "max_train": 800,
+  "max_test": 2000,
+  "skipped": [
+    {
+      "dataset": "naval_compressor",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "naval_turbine",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "ct_slice_location",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "sgemm_log_runtime",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "air_quality_nox",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "air_quality_no2",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "air_quality_benzene",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "blog_feedback_log_comments",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "facebook_comments_log",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    },
+    {
+      "dataset": "communities_crime",
+      "error": "ImportError: Install ucimlrepo first: pip install ucimlrepo"
+    }
+  ],
+  "dgp_args": {
+    "noise_sd": 0.15,
+    "n_hidden_layers": 3,
+    "n_features_hidden": 96,
+    "n_features_output": 192,
+    "lengthscale_hidden": -1.0,
+    "lengthscale_output": -1.0,
+    "residual_scale": 0.35,
+    "prior_weight": 1.0,
+    "eta": "1.0,0.6,0.3",
+    "epochs": 1000,
+    "lr": 0.01,
+    "depth_threshold": 0.025
+  },
+  "gp_args": {
+    "no_gp": false,
+    "gp_max_train": null,
+    "gp_lengthscale": -1.0,
+    "gp_noise_level": 0.05,
+    "gp_alpha": 1e-06,
+    "gp_n_restarts": 0,
+    "gp_no_optimize": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "scenarios": [
+    "holder_correct",
+    "holder_oversmooth",
+    "cusp",
+    "step"
+  ],
+  "n_grid": [
+    20,
+    30,
+    45,
+    70
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "init_modes": [
+    "identity",
+    "smooth_random"
+  ],
+  "fast": false,
+  "interpretation": "Reference slopes are visual order guides from Section 5, not fitted or claimed asymptotic exponents."
+}

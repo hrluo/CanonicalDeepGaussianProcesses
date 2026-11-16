@@ -1,0 +1,18 @@
+{
+  "n_grid": [
+    40,
+    70,
+    100
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "init_modes": [
+    "identity",
+    "smooth_random"
+  ],
+  "fast": false,
+  "interpretation": "The active rank-one layer is a fixed-2D realization of the conditional intrinsic representation; reference slope is a visual guide only."
+}

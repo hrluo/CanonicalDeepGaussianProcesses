@@ -1,0 +1,53 @@
+{
+  "datasets": [
+    "concrete_strength",
+    "airfoil_self_noise",
+    "gas_turbine_nox",
+    "superconductivity",
+    "power_plant",
+    "yacht_hydrodynamics",
+    "concrete_slump_strength",
+    "qsar_aquatic_toxicity",
+    "residential_building_cost",
+    "computer_hardware"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "train_frac": 0.8,
+  "max_train": 800,
+  "max_test": 2000,
+  "skipped": [],
+  "dgp_args": {
+    "noise_sd": 0.15,
+    "n_hidden_layers": 3,
+    "n_features_hidden": 96,
+    "n_features_output": 192,
+    "lengthscale_hidden": -1.0,
+    "lengthscale_output": -1.0,
+    "residual_scale": 0.35,
+    "prior_weight": 1.0,
+    "eta": "1.0,0.6,0.3",
+    "epochs": 1000,
+    "lr": 0.01,
+    "depth_threshold": 0.025
+  },
+  "gp_args": {
+    "no_gp": false,
+    "gp_max_train": null,
+    "gp_lengthscale": -1.0,
+    "gp_noise_level": 0.05,
+    "gp_alpha": 1e-06,
+    "gp_n_restarts": 0,
+    "gp_no_optimize": false
+  }
+}

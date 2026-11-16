@@ -1,0 +1,74 @@
+{
+  "domain": [
+    [
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "penalty_domain": [
+    [
+      -2.0,
+      2.0
+    ],
+    [
+      -2.0,
+      2.0
+    ]
+  ],
+  "diagnostic_domain": [
+    [
+      -2.0,
+      2.0
+    ],
+    [
+      -2.0,
+      2.0
+    ]
+  ],
+  "n_train": 100,
+  "test_side": 23,
+  "noise_sd": 0.1,
+  "n_iter": 400,
+  "burn": 70,
+  "thin": 6,
+  "rho": 0.7,
+  "eta": [
+    52.0,
+    30.0,
+    14.0,
+    0.0
+  ],
+  "p_norm": 2.0,
+  "penalty_grid_side": 11,
+  "layer_noise2": 0.0001,
+  "init_sigma2": 0.010000000000000002,
+  "noise_a0": 2.0,
+  "noise_b0": 0.05,
+  "init_lengthscale": 0.34,
+  "init_variance": 1.0,
+  "hyp_step_ell": 0.05,
+  "hyp_step_var": 0.05,
+  "predictive_draws_per_state": 1,
+  "recovery_grid_side": 17,
+  "active_tol": 0.1,
+  "hard_identity_enabled": false,
+  "hard_identity_layers": [
+    true,
+    true,
+    true,
+    false
+  ],
+  "hard_identity_thresholds": [
+    0.06,
+    0.06,
+    0.06,
+    null
+  ],
+  "hard_identity_sticky": true,
+  "hard_identity_metric": "latent",
+  "hard_identity_check_timing": "after_each_layer"
+}
