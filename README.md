@@ -52,11 +52,14 @@ The final command runs the full manuscript protocol for the noise/sample-size st
 **Citation** We provide this code for reproducibility and research purposes. If you use this repository, please cite the manuscript using the following BibTeX entry:
 
 ```bibtex
-@misc{zhu2026canonical,
-  title  = {Canonical Layer Inference for Deep Gaussian Processes via Symmetry-Breaking Augmentation},
-  author = {Zhu, Yichen and Luo, Hengrui},
-  year   = {2026},
-  note   = {Manuscript}
+@misc{zhu2026canonicallayerinferencedeep,
+      title={Canonical Layer Inference for Deep Gaussian Processes via Symmetry-Breaking Augmentation}, 
+      author={Yichen Zhu and Hengrui Luo},
+      year={2026},
+      eprint={2610.23842},
+      archivePrefix={arXiv},
+      primaryClass={math.ST},
+      url={https://arxiv.org/abs/2610.23842}, 
 }
 ```
 
